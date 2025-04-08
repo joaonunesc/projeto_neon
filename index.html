@@ -3,10 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <title>index</title>
 </head>
 <body>
-    <h1>OLÁ MUNDO</h1>
-    <p>O verdadeiro começo do projeto, vai ser interessante</p>
-</body>
+    <nav>
+        <div class="logo">
+            <img src="img/sakura prongs.png" alt="logo">
+            <h3>SakuraProngs</h3>
+        </div>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>           
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Cursos</a></li>
+            <li><a href="">Portifólio</a></li>
+            <li><a href="">Clube</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Perfil</a></li>
+        </ul>    
+    </nav>
+
+    <section aria-label="Slides">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides> 
+                <li class="slide" data-active>
+                    <img src="/img/cavaliro.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="/img/crhono.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="/img/finfal.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="/img/gris.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="tituloProduto">
+        <h2>Produtos</h2>
+    </div>
+ 
+    <div class="container">
+        <div class="card">
+            <img src="img/crhono.jpg" alt="">
+            <div class="content">
+                <h3>Griss card</h3>
+                <p>Cosplay Griss</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="img/cavaliro.jpg" alt="">
+            <div class="content">
+                <h3>Griss card</h3>
+                <p>Cosplay Griss</p>
+            </div>
+        </div>  
+
+        <div class="card">
+            <img src="img/gris.jpg" alt="">
+            <div class="content">
+                <h3>Griss card</h3>
+                <p>Cosplay Griss</p>
+            </div>
+        </div>  
+
+        <div class="card">
+            <img src="img/gris.jpg" alt="">
+            <div class="content">
+                <h3>Griss card</h3>
+                <p>Cosplay Griss</p>
+            </div>
+        </div>  
+
+
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h4>SakuraProngs</h4>
+                <p></p>
+            </div>
+            
+            <div class="footer-section links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h4>Contato</h4>
+                <p>Email: contato@sakurapongs.com</p>
+                <p>Telefone: ()</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 SakuraProngs. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script> 
+</body>   
 </html>
